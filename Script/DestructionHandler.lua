@@ -3,5 +3,6 @@ for _, v in pairs(script.Parent:GetChildren()) do
 		local var = Instance.new("NumberValue")
 		var.Name = "Hard"
 		var.Value = 10
+		var.Parent = v
 	end
 end
